@@ -1,0 +1,7 @@
+{
+  "extends": ["standard", "prettier", "plugin:security/recommended"],
+  "plugins": ["prettier", "security"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}
