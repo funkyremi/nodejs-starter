@@ -10,6 +10,8 @@
     "release": "standard-version",
     "build": "babel src -d build",
     "lint": "eslint src",
+    "docker:build": "docker build -t nodeapp .",
+    "docker:run": "docker run --unless-stopped -d nodeapp",
     "test": "jest",
     "coverage": "jest --coverage"
   },

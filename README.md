@@ -8,6 +8,7 @@ NodeJS starter pack with everything you need 📦 🚀.
 
 * Support latest Javascript features with [Babel 7](https://babeljs.io)
 * Tests and code coverage with [Jest](https://jestjs.io)
+* Container ready with [Docker](https://www.docker.com)
 * Auto restart server on files change with [Nodemon](https://nodemon.io)
 * Node logging with [Winston](https://github.com/winstonjs/winston)
 * Conventional Commit with [Commitizen](https://github.com/commitizen/cz-cli)
@@ -39,4 +40,11 @@ npm run commit
 
 # New release
 npm run release
+
+# Build project
+npm run build
+
+# Docker (build the project first)
+npm run docker:build
+npm run docker:run
 ```
